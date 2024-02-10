@@ -1,0 +1,29 @@
+#Jalankan Laravel Sail
+./vendor/bin/sail up
+./vendor/bin/sail composer install
+./vendor/bin/sail artisan
+
+#Melihat container
+sudo docker container ls -a
+
+
+#Masuk ke Mysql
+./vendor/bin/sail mysql -u sail -p
+
+
+#Masuk ke Redis
+
+
+#Cara Jalankan mailfit/ Email
+
+
+#Database Mysql dari Server Luar
+
+
+#Cara Naikan ke Production
+
+
+
+#Session di Redis
+
+
