@@ -1,11 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\Mysql1Controller;
-use App\Http\Controllers\Mysql2Controller;
-use App\Http\Controllers\RedisController;
-use App\Http\Controllers\MeilisearchController;
-use App\Http\Controllers\MailpitController;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,7 +16,6 @@ use App\Http\Controllers\MailpitController;
 Route::get('/', function () {
     return view('welcome');
 });
-
 
 Route::get('/mysql1', [Mysql1Controller::class, 'index']);
 Route::get('/mysql2', [Mysql2Controller::class, 'index']);
