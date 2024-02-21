@@ -17,6 +17,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/mysql1', [Mysql1Controller::class, 'index']);
-Route::get('/mysql2', [Mysql2Controller::class, 'index']);
-Route::get('/redis', [RedisController::class, 'index']);
+
+Route::get('/mysql1', [App\Http\Controllers\Mysql1Controller::class, 'index']);
+Route::get('/mysql2', [App\Http\Controllers\Mysql2Controller::class, 'index']);
+Route::get('/redis', [App\Http\Controllers\RedisController::class, 'index']);
